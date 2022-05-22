@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body onload="reset()">
+    <section>
+        <header><h1>Contador</h1></header>
+        <div id="num"></div>
+        <div id="buttons">
+            <input type="button" value="DECREASE" onclick="decrease()" class="bts" id="decrease">
+            <input type="button" value="RESET" onclick="reset()" class="bts" id="reset">
+            <input type="button" value="INCREASE" onclick="increase()" class="bts" id="increase">
+            <input type="button" value="START" onclick="start()" class="bts" id="start">
+            <input type="button" value="STOP" onclick="stop()" class="bts" id="stop">
+            <input type="button" value="CONTINUE" onclick="continuar()" class="bts" id="continue" disabled>
+        </div>
+    </section>
+    <script src="js1.js"></script>
+</body>
+</html>
