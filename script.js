@@ -6,24 +6,24 @@ contador.addEventListener("click", changeColor);
 
 //Incrementa 1 no contador
 const increase = () => {
-    let num = Number(contador.textContent)
-    num++
-    contador.textContent = num
-}
+    let num = Number(contador.textContent);
+    num++;
+    contador.textContent = num;
+};
 //Decrementa 1 no contador
 const decrease = () => {
-    let num = Number(contador.textContent)
-    num--
-    contador.textContent = num
-}
+    let num = Number(contador.textContent);
+    num--;
+    contador.textContent = num;
+};
 //Reseta o contador
 const reset = () => {
-    contador.innerText = 0
+    contador.innerText = 0;
     clearInterval(myInterval);
     startBtn.disabled = false;
     continueBtn.disabled = true;
 
-}
+};
 //Inicia um cronometro no contador
 const start = () => {
     myInterval = setInterval(increase, 1000);
@@ -38,7 +38,7 @@ const stop = () => {
 const continuar = () => {
     start();
     continueBtn.disabled = true;
-}
+};
 //Muda cor do elemento onde é chamada.
 function changeColor() {
     this.style.color = generateColor();

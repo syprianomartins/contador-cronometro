@@ -1,27 +1,28 @@
+html{
+    font-size: 16px;
+}
 body{
-    margin-top: 100px;
+    margin-top: 6.25rem;
     text-align: center;
 }
 section{
-    width: 250px;
-    height: 200px;
+    width: 15.625rem;
+    height: 12.5rem;
     margin: auto;
-    padding: 20px;
-    background-color: bisque;
-    border-radius: 10px;
+    padding: 1.25rem;
+    background-color: #ffe4c4;
+    border-radius: 0.625rem;
     box-shadow: 0px 0px 1em rgb(146, 137, 137);
 }
 input{
-    border-radius: 5px;
+    border-radius: 0.313rem;
 }
 #num{
     font: bold 55pt Arial;
-    margin: 20px;
+    margin: 1.25rem;
 }
-#buttons{
-}
-#increase:hover,#reset:hover,#decrease:hover{
-    background: whitesmoke;
+.bts:hover{
+    background: #bc8f8f;
     box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.15);
 }
 h1{
